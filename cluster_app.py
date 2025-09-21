@@ -22,7 +22,6 @@ The app will run locally on your computer and can be used repeatedly!
 
 from flask import Flask, render_template, request, send_file, jsonify, session
 import pandas as pd
-import os
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 import os
